@@ -1,0 +1,6 @@
+@MaterialBalanceAPI_HostAddress = http://localhost:5287
+
+GET {{MaterialBalanceAPI_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

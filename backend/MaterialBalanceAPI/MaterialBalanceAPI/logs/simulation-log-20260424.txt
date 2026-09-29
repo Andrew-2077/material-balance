@@ -1,0 +1,223 @@
+2026-04-24 10:38:10.273 +03:00 [DBG] Registered model binder providers, in the following order: ["Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BinderTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ServicesModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BodyModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.HeaderModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FloatingPointTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.EnumTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DateTimeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.TryParseModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CancellationTokenModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ByteArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormFileModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormCollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.KeyValuePairModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DictionaryModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ComplexObjectModelBinderProvider"]
+2026-04-24 10:38:10.406 +03:00 [INF] Запуск веб-сервера расчета материального баланса...
+2026-04-24 10:38:10.414 +03:00 [DBG] Hosting starting
+2026-04-24 10:38:10.436 +03:00 [DBG] Middleware loaded
+2026-04-24 10:38:10.441 +03:00 [DBG] Middleware loaded. Script /_framework/aspnetcore-browser-refresh.js (14941 B).
+2026-04-24 10:38:10.443 +03:00 [DBG] Middleware loaded. Script /_framework/blazor-hotreload.js (799 B).
+2026-04-24 10:38:10.489 +03:00 [WRN] The WebRootPath was not found: C:\Users\User\Desktop\MaterialBalance\backend\MaterialBalanceAPI\MaterialBalanceAPI\wwwroot. Static files may be unavailable.
+2026-04-24 10:38:10.607 +03:00 [DBG] Middleware configuration started with options: {AllowedHosts = *, AllowEmptyHosts = True, IncludeFailureMessage = True}
+2026-04-24 10:38:10.614 +03:00 [DBG] Wildcard detected, all requests with hosts will be allowed.
+2026-04-24 10:38:10.619 +03:00 [DBG] Middleware loaded: DOTNET_MODIFIABLE_ASSEMBLIES=debug, __ASPNETCORE_BROWSER_TOOLS=true
+2026-04-24 10:38:10.757 +03:00 [INF] Now listening on: https://localhost:7030
+2026-04-24 10:38:10.762 +03:00 [INF] Now listening on: http://localhost:5287
+2026-04-24 10:38:10.770 +03:00 [DBG] Loaded hosting startup assembly MaterialBalanceAPI
+2026-04-24 10:38:10.772 +03:00 [DBG] Loaded hosting startup assembly Microsoft.AspNetCore.Watch.BrowserRefresh
+2026-04-24 10:38:10.774 +03:00 [DBG] Loaded hosting startup assembly Microsoft.WebTools.ApiEndpointDiscovery
+2026-04-24 10:38:10.777 +03:00 [DBG] Loaded hosting startup assembly Microsoft.WebTools.BrowserLink.Net
+2026-04-24 10:38:10.799 +03:00 [DBG] Executing API description provider 'EndpointMetadataApiDescriptionProvider' from assembly Microsoft.AspNetCore.Mvc.ApiExplorer v10.0.0.0.
+2026-04-24 10:38:10.819 +03:00 [DBG] Executing API description provider 'DefaultApiDescriptionProvider' from assembly Microsoft.AspNetCore.Mvc.ApiExplorer v10.0.0.0.
+2026-04-24 10:38:10.879 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2026-04-24 10:38:10.884 +03:00 [INF] Hosting environment: Development
+2026-04-24 10:38:10.887 +03:00 [INF] Content root path: C:\Users\User\Desktop\MaterialBalance\backend\MaterialBalanceAPI\MaterialBalanceAPI
+2026-04-24 10:38:10.892 +03:00 [DBG] Hosting started
+2026-04-24 10:38:14.715 +03:00 [DBG] Connection id "0HNL1QHOS9SMB" received FIN.
+2026-04-24 10:38:14.761 +03:00 [DBG] Connection id "0HNL1QHOS9SMB" accepted.
+2026-04-24 10:38:14.768 +03:00 [DBG] Connection id "0HNL1QHOS9SMB" started.
+2026-04-24 10:38:14.773 +03:00 [DBG] Connection id "0HNL1QHOS9SMC" accepted.
+2026-04-24 10:38:14.775 +03:00 [DBG] Connection id "0HNL1QHOS9SMC" started.
+2026-04-24 10:38:14.927 +03:00 [DBG] Failed to authenticate HTTPS connection.
+System.IO.IOException: Received an unexpected EOF or 0 bytes from the transport stream.
+   at System.Net.Security.SslStream.ReceiveHandshakeFrameAsync[TIOAdapter](CancellationToken cancellationToken)
+   at System.Net.Security.SslStream.ForceAuthenticationAsync[TIOAdapter](Boolean receiveFirst, Byte[] reAuthenticationData, CancellationToken cancellationToken)
+   at System.Net.Security.SslStream.ProcessAuthenticationWithTelemetryAsync(Boolean isAsync, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Server.Kestrel.Https.Internal.HttpsConnectionMiddleware.OnConnectionAsync(ConnectionContext context)
+2026-04-24 10:38:14.969 +03:00 [DBG] Connection 0HNL1QHOS9SMC established using the following protocol: "Tls13"
+2026-04-24 10:38:15.014 +03:00 [DBG] Connection id "0HNL1QHOS9SMB" stopped.
+2026-04-24 10:38:15.038 +03:00 [DBG] Connection id "0HNL1QHOS9SMB" sending FIN because: "The Socket transport's send loop completed gracefully."
+2026-04-24 10:38:15.179 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7030/ - null null
+2026-04-24 10:38:15.692 +03:00 [DBG] No candidates found for the request path '/'
+2026-04-24 10:38:15.714 +03:00 [DBG] Request did not match any endpoints
+2026-04-24 10:38:15.763 +03:00 [DBG] The request path / does not match a supported file type
+2026-04-24 10:38:15.795 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7030/ - 404 null null 636.4058ms
+2026-04-24 10:38:15.821 +03:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET https://localhost:7030/, Response status code: 404
+2026-04-24 10:38:20.178 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7030/swagger/index.html - null null
+2026-04-24 10:38:20.191 +03:00 [DBG] No candidates found for the request path '/swagger/index.html'
+2026-04-24 10:38:20.192 +03:00 [DBG] Request did not match any endpoints
+2026-04-24 10:38:20.330 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7030/swagger/index.html - 304 null null 151.6451ms
+2026-04-24 10:38:20.340 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7030/swagger/swagger-ui.css - null null
+2026-04-24 10:38:20.341 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7030/swagger/index.js - null null
+2026-04-24 10:38:20.341 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7030/swagger/swagger-ui-bundle.js - null null
+2026-04-24 10:38:20.341 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7030/swagger/swagger-ui-standalone-preset.js - null null
+2026-04-24 10:38:20.340 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7030/_framework/aspnetcore-browser-refresh.js - null null
+2026-04-24 10:38:20.340 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7030/swagger/index.css - null null
+2026-04-24 10:38:20.388 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7030/_vs/browserLink - null null
+2026-04-24 10:38:20.394 +03:00 [DBG] No candidates found for the request path '/swagger/swagger-ui.css'
+2026-04-24 10:38:20.400 +03:00 [DBG] No candidates found for the request path '/swagger/index.js'
+2026-04-24 10:38:20.443 +03:00 [DBG] Request did not match any endpoints
+2026-04-24 10:38:20.417 +03:00 [DBG] No candidates found for the request path '/swagger/swagger-ui-standalone-preset.js'
+2026-04-24 10:38:20.437 +03:00 [DBG] Request did not match any endpoints
+2026-04-24 10:38:20.430 +03:00 [DBG] No candidates found for the request path '/swagger/index.css'
+2026-04-24 10:38:20.449 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7030/swagger/index.js - 304 null null 108.7731ms
+2026-04-24 10:38:20.409 +03:00 [DBG] No candidates found for the request path '/swagger/swagger-ui-bundle.js'
+2026-04-24 10:38:20.449 +03:00 [DBG] Request did not match any endpoints
+2026-04-24 10:38:20.460 +03:00 [DBG] Request did not match any endpoints
+2026-04-24 10:38:20.448 +03:00 [DBG] Script injected: /_framework/aspnetcore-browser-refresh.js
+2026-04-24 10:38:20.471 +03:00 [DBG] Request did not match any endpoints
+2026-04-24 10:38:20.477 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7030/_framework/aspnetcore-browser-refresh.js - 200 14941 application/javascript; charset=utf-8 137.2787ms
+2026-04-24 10:38:20.484 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7030/swagger/swagger-ui-standalone-preset.js - 304 null null 143.0744ms
+2026-04-24 10:38:20.484 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7030/swagger/swagger-ui.css - 304 null null 143.6976ms
+2026-04-24 10:38:20.484 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7030/swagger/index.css - 304 null null 143.5784ms
+2026-04-24 10:38:20.493 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7030/swagger/swagger-ui-bundle.js - 304 null null 152.6962ms
+2026-04-24 10:38:20.564 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7030/_vs/browserLink - 200 null text/javascript; charset=UTF-8 212.5288ms
+2026-04-24 10:38:20.597 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7030/swagger/v1/swagger.json - null null
+2026-04-24 10:38:20.602 +03:00 [DBG] No candidates found for the request path '/swagger/v1/swagger.json'
+2026-04-24 10:38:20.604 +03:00 [DBG] Request did not match any endpoints
+2026-04-24 10:38:20.619 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7030/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 22.2767ms
+2026-04-24 10:38:54.384 +03:00 [DBG] Connection id "0HNL1QHOS9SMC" received FIN.
+2026-04-24 10:38:54.389 +03:00 [DBG] The connection queue processing loop for 0HNL1QHOS9SMC completed.
+2026-04-24 10:38:54.395 +03:00 [DBG] Connection id "0HNL1QHOS9SMC" is closed. The last processed stream ID was 19.
+2026-04-24 10:38:54.398 +03:00 [DBG] Connection id "0HNL1QHOS9SMC" sending FIN because: "The Socket transport's send loop completed gracefully."
+2026-04-24 10:38:54.415 +03:00 [DBG] Connection id "0HNL1QHOS9SMC" stopped.
+2026-04-24 10:39:43.581 +03:00 [DBG] Connection id "0HNL1QHOS9SMD" accepted.
+2026-04-24 10:39:43.583 +03:00 [DBG] Connection id "0HNL1QHOS9SMD" started.
+2026-04-24 10:39:43.631 +03:00 [DBG] Connection 0HNL1QHOS9SMD established using the following protocol: "Tls13"
+2026-04-24 10:39:43.636 +03:00 [INF] Request starting HTTP/2 OPTIONS https://localhost:7030/api/balance/solve - null null
+2026-04-24 10:39:43.648 +03:00 [DBG] 1 candidate(s) found for the request path '/api/balance/solve'
+2026-04-24 10:39:43.651 +03:00 [DBG] Request matched endpoint '405 HTTP Method Not Supported'
+2026-04-24 10:39:43.657 +03:00 [DBG] The request has an origin header: 'http://localhost:5173'.
+2026-04-24 10:39:43.660 +03:00 [INF] CORS policy execution successful.
+2026-04-24 10:39:43.663 +03:00 [DBG] The request is a preflight request.
+2026-04-24 10:39:43.666 +03:00 [INF] Request finished HTTP/2 OPTIONS https://localhost:7030/api/balance/solve - 204 null null 30.8271ms
+2026-04-24 10:39:43.670 +03:00 [INF] Request starting HTTP/2 POST https://localhost:7030/api/balance/solve - application/json 1241
+2026-04-24 10:39:43.679 +03:00 [DBG] 1 candidate(s) found for the request path '/api/balance/solve'
+2026-04-24 10:39:43.683 +03:00 [DBG] Endpoint 'MaterialBalanceAPI.Controllers.BalanceController.Solve (MaterialBalanceAPI)' with route pattern 'api/Balance/solve' is valid for the request path '/api/balance/solve'
+2026-04-24 10:39:43.687 +03:00 [DBG] Request matched endpoint 'MaterialBalanceAPI.Controllers.BalanceController.Solve (MaterialBalanceAPI)'
+2026-04-24 10:39:43.690 +03:00 [DBG] The request has an origin header: 'http://localhost:5173'.
+2026-04-24 10:39:43.692 +03:00 [INF] CORS policy execution successful.
+2026-04-24 10:39:43.696 +03:00 [DBG] Static files was skipped as the request already matched an endpoint.
+2026-04-24 10:39:43.701 +03:00 [INF] Executing endpoint 'MaterialBalanceAPI.Controllers.BalanceController.Solve (MaterialBalanceAPI)'
+2026-04-24 10:39:43.753 +03:00 [INF] Route matched with {action = "Solve", controller = "Balance"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult`1[MaterialBalanceAPI.Models.BalanceResponse] Solve(MaterialBalanceAPI.Models.BalanceRequest) on controller MaterialBalanceAPI.Controllers.BalanceController (MaterialBalanceAPI).
+2026-04-24 10:39:43.761 +03:00 [DBG] Execution plan of authorization filters (in the following order): ["None"]
+2026-04-24 10:39:43.768 +03:00 [DBG] Execution plan of resource filters (in the following order): ["None"]
+2026-04-24 10:39:43.776 +03:00 [DBG] Execution plan of action filters (in the following order): ["Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000)","Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000)"]
+2026-04-24 10:39:43.782 +03:00 [DBG] Execution plan of exception filters (in the following order): ["None"]
+2026-04-24 10:39:43.789 +03:00 [DBG] Execution plan of result filters (in the following order): ["Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000)"]
+2026-04-24 10:39:43.800 +03:00 [DBG] Executing controller factory for controller MaterialBalanceAPI.Controllers.BalanceController (MaterialBalanceAPI)
+2026-04-24 10:39:43.811 +03:00 [DBG] Executed controller factory for controller MaterialBalanceAPI.Controllers.BalanceController (MaterialBalanceAPI)
+2026-04-24 10:39:43.842 +03:00 [DBG] Attempting to bind parameter 'request' of type 'MaterialBalanceAPI.Models.BalanceRequest' ...
+2026-04-24 10:39:43.854 +03:00 [DBG] Attempting to bind parameter 'request' of type 'MaterialBalanceAPI.Models.BalanceRequest' using the name '' in request data ...
+2026-04-24 10:39:43.859 +03:00 [DBG] Selected input formatter 'Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonInputFormatter' for content type 'application/json'.
+2026-04-24 10:39:43.886 +03:00 [DBG] Connection id "0HNL1QHOS9SMD", Request id "0HNL1QHOS9SMD:00000003": started reading request body.
+2026-04-24 10:39:43.891 +03:00 [DBG] Connection id "0HNL1QHOS9SMD", Request id "0HNL1QHOS9SMD:00000003": done reading request body.
+2026-04-24 10:39:43.917 +03:00 [DBG] JSON input formatter succeeded, deserializing to type 'MaterialBalanceAPI.Models.BalanceRequest'
+2026-04-24 10:39:43.922 +03:00 [DBG] Done attempting to bind parameter 'request' of type 'MaterialBalanceAPI.Models.BalanceRequest'.
+2026-04-24 10:39:43.927 +03:00 [DBG] Done attempting to bind parameter 'request' of type 'MaterialBalanceAPI.Models.BalanceRequest'.
+2026-04-24 10:39:43.934 +03:00 [DBG] Attempting to validate the bound parameter 'request' of type 'MaterialBalanceAPI.Models.BalanceRequest' ...
+2026-04-24 10:39:43.969 +03:00 [DBG] Done attempting to validate the bound parameter 'request' of type 'MaterialBalanceAPI.Models.BalanceRequest'.
+2026-04-24 10:39:43.980 +03:00 [INF] Получен запрос на расчет баланса. Количество потоков: 7
+2026-04-24 10:39:44.162 +03:00 [INF] Расчет успешно завершен со статусом: FOUND_IN_BOUNDS
+2026-04-24 10:39:44.172 +03:00 [DBG] List of registered output formatters, in the following order: ["Microsoft.AspNetCore.Mvc.Formatters.HttpNoContentOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StringOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StreamOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter"]
+2026-04-24 10:39:44.184 +03:00 [DBG] No information found on request to perform content negotiation.
+2026-04-24 10:39:44.187 +03:00 [DBG] Attempting to select an output formatter without using a content type as no explicit content types were specified for the response.
+2026-04-24 10:39:44.190 +03:00 [DBG] Attempting to select the first formatter in the output formatters list which can write the result.
+2026-04-24 10:39:44.195 +03:00 [DBG] Selected output formatter 'Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter' and content type 'application/json' to write the response.
+2026-04-24 10:39:44.199 +03:00 [INF] Executing OkObjectResult, writing value of type 'MaterialBalanceAPI.Models.BalanceResponse'.
+2026-04-24 10:39:44.228 +03:00 [INF] Executed action MaterialBalanceAPI.Controllers.BalanceController.Solve (MaterialBalanceAPI) in 423.6639ms
+2026-04-24 10:39:44.289 +03:00 [INF] Executed endpoint 'MaterialBalanceAPI.Controllers.BalanceController.Solve (MaterialBalanceAPI)'
+2026-04-24 10:39:44.291 +03:00 [INF] Request finished HTTP/2 POST https://localhost:7030/api/balance/solve - 200 null application/json; charset=utf-8 621.2013ms
+2026-04-24 10:41:37.635 +03:00 [INF] Request starting HTTP/2 OPTIONS https://localhost:7030/api/balance/solve - null null
+2026-04-24 10:41:37.645 +03:00 [DBG] 1 candidate(s) found for the request path '/api/balance/solve'
+2026-04-24 10:41:37.649 +03:00 [DBG] Request matched endpoint '405 HTTP Method Not Supported'
+2026-04-24 10:41:37.654 +03:00 [DBG] The request has an origin header: 'http://localhost:5173'.
+2026-04-24 10:41:37.656 +03:00 [INF] CORS policy execution successful.
+2026-04-24 10:41:37.659 +03:00 [DBG] The request is a preflight request.
+2026-04-24 10:41:37.661 +03:00 [INF] Request finished HTTP/2 OPTIONS https://localhost:7030/api/balance/solve - 204 null null 26.0377ms
+2026-04-24 10:41:37.664 +03:00 [INF] Request starting HTTP/2 POST https://localhost:7030/api/balance/solve - application/json 1410
+2026-04-24 10:41:37.681 +03:00 [DBG] 1 candidate(s) found for the request path '/api/balance/solve'
+2026-04-24 10:41:37.688 +03:00 [DBG] Endpoint 'MaterialBalanceAPI.Controllers.BalanceController.Solve (MaterialBalanceAPI)' with route pattern 'api/Balance/solve' is valid for the request path '/api/balance/solve'
+2026-04-24 10:41:37.700 +03:00 [DBG] Request matched endpoint 'MaterialBalanceAPI.Controllers.BalanceController.Solve (MaterialBalanceAPI)'
+2026-04-24 10:41:37.707 +03:00 [DBG] The request has an origin header: 'http://localhost:5173'.
+2026-04-24 10:41:37.714 +03:00 [INF] CORS policy execution successful.
+2026-04-24 10:41:37.720 +03:00 [DBG] Static files was skipped as the request already matched an endpoint.
+2026-04-24 10:41:37.726 +03:00 [INF] Executing endpoint 'MaterialBalanceAPI.Controllers.BalanceController.Solve (MaterialBalanceAPI)'
+2026-04-24 10:41:37.734 +03:00 [INF] Route matched with {action = "Solve", controller = "Balance"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult`1[MaterialBalanceAPI.Models.BalanceResponse] Solve(MaterialBalanceAPI.Models.BalanceRequest) on controller MaterialBalanceAPI.Controllers.BalanceController (MaterialBalanceAPI).
+2026-04-24 10:41:37.744 +03:00 [DBG] Execution plan of authorization filters (in the following order): ["None"]
+2026-04-24 10:41:37.753 +03:00 [DBG] Execution plan of resource filters (in the following order): ["None"]
+2026-04-24 10:41:37.758 +03:00 [DBG] Execution plan of action filters (in the following order): ["Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000)","Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000)"]
+2026-04-24 10:41:37.765 +03:00 [DBG] Execution plan of exception filters (in the following order): ["None"]
+2026-04-24 10:41:37.772 +03:00 [DBG] Execution plan of result filters (in the following order): ["Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000)"]
+2026-04-24 10:41:37.779 +03:00 [DBG] Executing controller factory for controller MaterialBalanceAPI.Controllers.BalanceController (MaterialBalanceAPI)
+2026-04-24 10:41:37.786 +03:00 [DBG] Executed controller factory for controller MaterialBalanceAPI.Controllers.BalanceController (MaterialBalanceAPI)
+2026-04-24 10:41:37.793 +03:00 [DBG] Attempting to bind parameter 'request' of type 'MaterialBalanceAPI.Models.BalanceRequest' ...
+2026-04-24 10:41:37.800 +03:00 [DBG] Attempting to bind parameter 'request' of type 'MaterialBalanceAPI.Models.BalanceRequest' using the name '' in request data ...
+2026-04-24 10:41:37.807 +03:00 [DBG] Selected input formatter 'Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonInputFormatter' for content type 'application/json'.
+2026-04-24 10:41:37.812 +03:00 [DBG] Connection id "0HNL1QHOS9SMD", Request id "0HNL1QHOS9SMD:00000007": started reading request body.
+2026-04-24 10:41:37.817 +03:00 [DBG] Connection id "0HNL1QHOS9SMD", Request id "0HNL1QHOS9SMD:00000007": done reading request body.
+2026-04-24 10:41:37.822 +03:00 [DBG] JSON input formatter succeeded, deserializing to type 'MaterialBalanceAPI.Models.BalanceRequest'
+2026-04-24 10:41:37.827 +03:00 [DBG] Done attempting to bind parameter 'request' of type 'MaterialBalanceAPI.Models.BalanceRequest'.
+2026-04-24 10:41:37.835 +03:00 [DBG] Done attempting to bind parameter 'request' of type 'MaterialBalanceAPI.Models.BalanceRequest'.
+2026-04-24 10:41:37.842 +03:00 [DBG] Attempting to validate the bound parameter 'request' of type 'MaterialBalanceAPI.Models.BalanceRequest' ...
+2026-04-24 10:41:37.849 +03:00 [DBG] Done attempting to validate the bound parameter 'request' of type 'MaterialBalanceAPI.Models.BalanceRequest'.
+2026-04-24 10:41:37.852 +03:00 [INF] Получен запрос на расчет баланса. Количество потоков: 8
+2026-04-24 10:41:37.855 +03:00 [INF] Расчет успешно завершен со статусом: FOUND_IN_BOUNDS
+2026-04-24 10:41:37.857 +03:00 [DBG] List of registered output formatters, in the following order: ["Microsoft.AspNetCore.Mvc.Formatters.HttpNoContentOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StringOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StreamOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter"]
+2026-04-24 10:41:37.867 +03:00 [DBG] No information found on request to perform content negotiation.
+2026-04-24 10:41:37.870 +03:00 [DBG] Attempting to select an output formatter without using a content type as no explicit content types were specified for the response.
+2026-04-24 10:41:37.872 +03:00 [DBG] Attempting to select the first formatter in the output formatters list which can write the result.
+2026-04-24 10:41:37.874 +03:00 [DBG] Selected output formatter 'Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter' and content type 'application/json' to write the response.
+2026-04-24 10:41:37.878 +03:00 [INF] Executing OkObjectResult, writing value of type 'MaterialBalanceAPI.Models.BalanceResponse'.
+2026-04-24 10:41:37.885 +03:00 [INF] Executed action MaterialBalanceAPI.Controllers.BalanceController.Solve (MaterialBalanceAPI) in 106.0125ms
+2026-04-24 10:41:37.932 +03:00 [INF] Executed endpoint 'MaterialBalanceAPI.Controllers.BalanceController.Solve (MaterialBalanceAPI)'
+2026-04-24 10:41:37.940 +03:00 [INF] Request finished HTTP/2 POST https://localhost:7030/api/balance/solve - 200 null application/json; charset=utf-8 276.0228ms
+2026-04-24 10:41:50.508 +03:00 [INF] Request starting HTTP/2 OPTIONS https://localhost:7030/api/balance/solve - null null
+2026-04-24 10:41:50.513 +03:00 [DBG] 1 candidate(s) found for the request path '/api/balance/solve'
+2026-04-24 10:41:50.516 +03:00 [DBG] Request matched endpoint '405 HTTP Method Not Supported'
+2026-04-24 10:41:50.520 +03:00 [DBG] The request has an origin header: 'http://localhost:5173'.
+2026-04-24 10:41:50.525 +03:00 [INF] CORS policy execution successful.
+2026-04-24 10:41:50.528 +03:00 [DBG] The request is a preflight request.
+2026-04-24 10:41:50.534 +03:00 [INF] Request finished HTTP/2 OPTIONS https://localhost:7030/api/balance/solve - 204 null null 26.4909ms
+2026-04-24 10:41:50.536 +03:00 [INF] Request starting HTTP/2 POST https://localhost:7030/api/balance/solve - application/json 1235
+2026-04-24 10:41:50.555 +03:00 [DBG] 1 candidate(s) found for the request path '/api/balance/solve'
+2026-04-24 10:41:50.563 +03:00 [DBG] Endpoint 'MaterialBalanceAPI.Controllers.BalanceController.Solve (MaterialBalanceAPI)' with route pattern 'api/Balance/solve' is valid for the request path '/api/balance/solve'
+2026-04-24 10:41:50.573 +03:00 [DBG] Request matched endpoint 'MaterialBalanceAPI.Controllers.BalanceController.Solve (MaterialBalanceAPI)'
+2026-04-24 10:41:50.579 +03:00 [DBG] The request has an origin header: 'http://localhost:5173'.
+2026-04-24 10:41:50.586 +03:00 [INF] CORS policy execution successful.
+2026-04-24 10:41:50.590 +03:00 [DBG] Static files was skipped as the request already matched an endpoint.
+2026-04-24 10:41:50.595 +03:00 [INF] Executing endpoint 'MaterialBalanceAPI.Controllers.BalanceController.Solve (MaterialBalanceAPI)'
+2026-04-24 10:41:50.601 +03:00 [INF] Route matched with {action = "Solve", controller = "Balance"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult`1[MaterialBalanceAPI.Models.BalanceResponse] Solve(MaterialBalanceAPI.Models.BalanceRequest) on controller MaterialBalanceAPI.Controllers.BalanceController (MaterialBalanceAPI).
+2026-04-24 10:41:50.608 +03:00 [DBG] Execution plan of authorization filters (in the following order): ["None"]
+2026-04-24 10:41:50.617 +03:00 [DBG] Execution plan of resource filters (in the following order): ["None"]
+2026-04-24 10:41:50.625 +03:00 [DBG] Execution plan of action filters (in the following order): ["Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000)","Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000)"]
+2026-04-24 10:41:50.637 +03:00 [DBG] Execution plan of exception filters (in the following order): ["None"]
+2026-04-24 10:41:50.644 +03:00 [DBG] Execution plan of result filters (in the following order): ["Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000)"]
+2026-04-24 10:41:50.652 +03:00 [DBG] Executing controller factory for controller MaterialBalanceAPI.Controllers.BalanceController (MaterialBalanceAPI)
+2026-04-24 10:41:50.660 +03:00 [DBG] Executed controller factory for controller MaterialBalanceAPI.Controllers.BalanceController (MaterialBalanceAPI)
+2026-04-24 10:41:50.666 +03:00 [DBG] Attempting to bind parameter 'request' of type 'MaterialBalanceAPI.Models.BalanceRequest' ...
+2026-04-24 10:41:50.673 +03:00 [DBG] Attempting to bind parameter 'request' of type 'MaterialBalanceAPI.Models.BalanceRequest' using the name '' in request data ...
+2026-04-24 10:41:50.680 +03:00 [DBG] Selected input formatter 'Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonInputFormatter' for content type 'application/json'.
+2026-04-24 10:41:50.686 +03:00 [DBG] Connection id "0HNL1QHOS9SMD", Request id "0HNL1QHOS9SMD:0000000B": started reading request body.
+2026-04-24 10:41:50.692 +03:00 [DBG] Connection id "0HNL1QHOS9SMD", Request id "0HNL1QHOS9SMD:0000000B": done reading request body.
+2026-04-24 10:41:50.698 +03:00 [DBG] JSON input formatter succeeded, deserializing to type 'MaterialBalanceAPI.Models.BalanceRequest'
+2026-04-24 10:41:50.701 +03:00 [DBG] Done attempting to bind parameter 'request' of type 'MaterialBalanceAPI.Models.BalanceRequest'.
+2026-04-24 10:41:50.704 +03:00 [DBG] Done attempting to bind parameter 'request' of type 'MaterialBalanceAPI.Models.BalanceRequest'.
+2026-04-24 10:41:50.711 +03:00 [DBG] Attempting to validate the bound parameter 'request' of type 'MaterialBalanceAPI.Models.BalanceRequest' ...
+2026-04-24 10:41:50.720 +03:00 [DBG] Done attempting to validate the bound parameter 'request' of type 'MaterialBalanceAPI.Models.BalanceRequest'.
+2026-04-24 10:41:50.724 +03:00 [INF] Получен запрос на расчет баланса. Количество потоков: 7
+2026-04-24 10:41:50.730 +03:00 [INF] Расчет успешно завершен со статусом: FOUND_IN_BOUNDS
+2026-04-24 10:41:50.737 +03:00 [DBG] List of registered output formatters, in the following order: ["Microsoft.AspNetCore.Mvc.Formatters.HttpNoContentOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StringOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StreamOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter"]
+2026-04-24 10:41:50.751 +03:00 [DBG] No information found on request to perform content negotiation.
+2026-04-24 10:41:50.756 +03:00 [DBG] Attempting to select an output formatter without using a content type as no explicit content types were specified for the response.
+2026-04-24 10:41:50.762 +03:00 [DBG] Attempting to select the first formatter in the output formatters list which can write the result.
+2026-04-24 10:41:50.767 +03:00 [DBG] Selected output formatter 'Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter' and content type 'application/json' to write the response.
+2026-04-24 10:41:50.775 +03:00 [INF] Executing OkObjectResult, writing value of type 'MaterialBalanceAPI.Models.BalanceResponse'.
+2026-04-24 10:41:50.784 +03:00 [INF] Executed action MaterialBalanceAPI.Controllers.BalanceController.Solve (MaterialBalanceAPI) in 131.7803ms
+2026-04-24 10:41:50.791 +03:00 [INF] Executed endpoint 'MaterialBalanceAPI.Controllers.BalanceController.Solve (MaterialBalanceAPI)'
+2026-04-24 10:41:50.799 +03:00 [INF] Request finished HTTP/2 POST https://localhost:7030/api/balance/solve - 200 null application/json; charset=utf-8 262.8042ms
+2026-04-24 11:15:20.904 +03:00 [DBG] Connection id "0HNL1QHOS9SMD" received FIN.
+2026-04-24 11:15:20.905 +03:00 [DBG] Connection id "0HNL1QHOS9SMD" is closed. The last processed stream ID was 11.
+2026-04-24 11:15:20.906 +03:00 [DBG] The connection queue processing loop for 0HNL1QHOS9SMD completed.
+2026-04-24 11:15:20.907 +03:00 [DBG] Connection id "0HNL1QHOS9SMD" sending FIN because: "The Socket transport's send loop completed gracefully."
+2026-04-24 11:15:20.918 +03:00 [DBG] Connection id "0HNL1QHOS9SMD" stopped.
+2026-04-24 11:15:37.678 +03:00 [INF] Application is shutting down...
+2026-04-24 11:15:37.682 +03:00 [DBG] Hosting stopping
+2026-04-24 11:15:37.766 +03:00 [DBG] Hosting stopped

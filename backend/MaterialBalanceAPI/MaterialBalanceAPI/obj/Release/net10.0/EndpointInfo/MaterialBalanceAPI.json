@@ -1,0 +1,229 @@
+{
+  "openapi": "3.0.4",
+  "info": {
+    "title": "MaterialBalanceAPI",
+    "version": "1.0"
+  },
+  "paths": {
+    "/api/Balance/solve": {
+      "post": {
+        "tags": [
+          "Balance"
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/BalanceRequest"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/BalanceRequest"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/BalanceRequest"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "OK",
+            "content": {
+              "text/plain": {
+                "schema": {
+                  "$ref": "#/components/schemas/BalanceResponse"
+                }
+              },
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/BalanceResponse"
+                }
+              },
+              "text/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/BalanceResponse"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/api/Periods": {
+      "get": {
+        "tags": [
+          "Periods"
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/PlantOperations/Model": {
+      "get": {
+        "tags": [
+          "PlantOperations"
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/PlantOperations/calculate/{periodId}": {
+      "post": {
+        "tags": [
+          "PlantOperations"
+        ],
+        "parameters": [
+          {
+            "name": "periodId",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    }
+  },
+  "components": {
+    "schemas": {
+      "BalanceRequest": {
+        "type": "object",
+        "properties": {
+          "variables": {
+            "type": "array",
+            "items": {
+              "$ref": "#/components/schemas/VariableDto"
+            },
+            "nullable": true
+          }
+        },
+        "additionalProperties": false
+      },
+      "BalanceResponse": {
+        "type": "object",
+        "properties": {
+          "reconciledVariables": {
+            "type": "array",
+            "items": {
+              "$ref": "#/components/schemas/BalanceResult"
+            },
+            "nullable": true
+          },
+          "status": {
+            "type": "string",
+            "nullable": true
+          },
+          "globalTestValue": {
+            "type": "number",
+            "format": "double"
+          },
+          "isGlobalTestPassed": {
+            "type": "boolean"
+          },
+          "grossErrorStreams": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            },
+            "nullable": true
+          }
+        },
+        "additionalProperties": false
+      },
+      "BalanceResult": {
+        "type": "object",
+        "properties": {
+          "id": {
+            "type": "string",
+            "nullable": true
+          },
+          "name": {
+            "type": "string",
+            "nullable": true
+          },
+          "reconciledValue": {
+            "type": "number",
+            "format": "double"
+          },
+          "measured": {
+            "type": "number",
+            "format": "double"
+          },
+          "isMeasured": {
+            "type": "boolean"
+          }
+        },
+        "additionalProperties": false
+      },
+      "VariableDto": {
+        "type": "object",
+        "properties": {
+          "id": {
+            "type": "string",
+            "nullable": true
+          },
+          "name": {
+            "type": "string",
+            "nullable": true
+          },
+          "sourceId": {
+            "type": "string",
+            "nullable": true
+          },
+          "destinationId": {
+            "type": "string",
+            "nullable": true
+          },
+          "measured": {
+            "type": "number",
+            "format": "double"
+          },
+          "tolerance": {
+            "type": "number",
+            "format": "double"
+          },
+          "isMeasured": {
+            "type": "boolean"
+          },
+          "minBound": {
+            "type": "number",
+            "format": "double"
+          },
+          "maxBound": {
+            "type": "number",
+            "format": "double"
+          }
+        },
+        "additionalProperties": false
+      }
+    }
+  },
+  "tags": [
+    {
+      "name": "Balance"
+    },
+    {
+      "name": "Periods"
+    },
+    {
+      "name": "PlantOperations"
+    }
+  ]
+}

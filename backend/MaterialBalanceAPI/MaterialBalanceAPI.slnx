@@ -1,0 +1,4 @@
+<Solution>
+  <Project Path="MaterialBalanceAPI/MaterialBalanceAPI.csproj" />
+  <Project Path="Tests/Tests.csproj" Id="50ac440d-f01a-4658-aced-5d5e30326635" />
+</Solution>

@@ -1,0 +1,49 @@
+version: '3.8'
+
+services:
+  # База данных
+  db_service:
+    image: mcr.microsoft.com/mssql/server:2025-latest
+    container_name: balance_db
+    ports:
+      - "1433:1433"
+    environment:
+      - ACCEPT_EULA=Y
+      - MSSQL_SA_PASSWORD=YourStrongPassword123!
+    volumes:
+      - sql_data:/var/opt/mssql
+    restart: always
+
+  # Сервис бэкенда
+  backend_service:
+    build:
+      # Путь от файла docker-compose до папки с Dockerfile бэкенда
+      context: ./MaterialBalanceAPI/MaterialBalanceAPI
+      dockerfile: Dockerfile
+    image: andrew2077/material_balance:backend-v1.0
+    container_name: balance_api_18
+    environment:
+      - ConnectionStrings__DefaultConnection=Server=db_service;Database=MaterialBalanceDB;User Id=sa;Password=YourStrongPassword123!;TrustServerCertificate=True;
+    depends_on:
+      - db_service
+    restart: always
+
+  # Сервис фронтенда + Nginx
+  frontend_service:
+    build:
+      # Выходим из папки backend и идем во frontend
+      context: ../frontend
+      dockerfile: Dockerfile
+    image: andrew2077/material_balance:frontend-v1.0
+    container_name: balance_web_client
+    ports:
+      - "5173:80"
+    volumes:
+      # Пробрасываем конфиг Nginx, который лежит здесь же в папке backend
+      - ./nginx.conf:/etc/nginx/conf.d/default.conf:ro
+    depends_on:
+      - backend_service
+    restart: always
+
+volumes:
+  sql_data:

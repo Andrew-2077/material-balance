@@ -1,0 +1,64 @@
+[
+  {
+    "ContainingType": "MaterialBalanceAPI.Controllers.BalanceController",
+    "Method": "Solve",
+    "RelativePath": "api/Balance/solve",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "MaterialBalanceAPI.Models.BalanceRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "MaterialBalanceAPI.Models.BalanceResponse",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "MaterialBalanceAPI.Controllers.PeriodsController",
+    "Method": "GetPeriods",
+    "RelativePath": "api/Periods",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "MaterialBalanceAPI.Controllers.PlantOperationsController",
+    "Method": "CalculateBalance",
+    "RelativePath": "api/PlantOperations/calculate/{periodId}",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "periodId",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "MaterialBalanceAPI.Controllers.PlantOperationsController",
+    "Method": "GetPlantModel",
+    "RelativePath": "api/PlantOperations/Model",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  }
+]

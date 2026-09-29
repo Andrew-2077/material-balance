@@ -1,0 +1,52 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: balance-backend
+spec:
+  replicas: 2
+  selector:
+    matchLabels:
+      app: backend
+  template:
+    metadata:
+      labels:
+        app: backend
+    spec:
+      initContainers:
+      - name: wait-for-db
+        image: busybox
+        command: ['sh', '-c', 'until nc -z db-service 1433; do echo waiting for db; sleep 2; done;']
+      containers:
+      - name: backend
+        image: balance-backend:3.1
+        imagePullPolicy: IfNotPresent
+        ports:
+        - containerPort: 80
+        env:
+        - name: ConnectionStrings__DefaultConnection
+          valueFrom:
+            secretKeyRef:
+              name: db-secrets
+              key: CONNECTION_STRING
+      # Ограничения ресурсов
+        resources:
+          requests:
+            cpu: "100m"
+            memory: "128Mi"
+          limits:
+            cpu: "500m"
+            memory: "256Mi"
+            
+        # Проверки работоспособности
+        livenessProbe:
+          httpGet:
+            path: /api/health/live
+            port: 80
+          initialDelaySeconds: 15
+          periodSeconds: 10
+        readinessProbe:
+          httpGet:
+            path: /api/health/ready
+            port: 80
+          initialDelaySeconds: 10
+          periodSeconds: 5

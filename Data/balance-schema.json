@@ -1,0 +1,79 @@
+[
+  {
+    "id": "4d188c63-b0b9-49d3-9be4-a1f353f50882",
+    "name": "1",
+    "sourceId": null,
+    "destinationId": "1",
+    "measured": 10.005,
+    "tolerance": 0.2,
+    "isMeasured": false,
+    "minBound": 0,
+    "maxBound": 1000
+  },
+  {
+    "id": "50c5ef5c-1e3e-4429-8870-75d6bbef269d",
+    "name": "2",
+    "sourceId": "1",
+    "destinationId": null,
+    "measured": 3.033,
+    "tolerance": 0.121,
+    "isMeasured": true,
+    "minBound": 0,
+    "maxBound": 1000
+  },
+  {
+    "id": "71028d1e-ea7b-4842-a304-90b63316f959",
+    "name": "3",
+    "sourceId": "1",
+    "destinationId": "2",
+    "measured": 6.831,
+    "tolerance": 0.683,
+    "isMeasured": true,
+    "minBound": 6.831,
+    "maxBound": 6.831
+  },
+  {
+    "id": "f3b61d37-6dbc-44d3-8911-7dceabfcb8ed",
+    "name": "4",
+    "sourceId": "2",
+    "destinationId": null,
+    "measured": 1.985,
+    "tolerance": 0.04,
+    "isMeasured": true,
+    "minBound": 0,
+    "maxBound": 1000
+  },
+  {
+    "id": "20764e72-7861-46ae-8aed-39689b13d2bd",
+    "name": "5",
+    "sourceId": "2",
+    "destinationId": "3",
+    "measured": 5.093,
+    "tolerance": 0.102,
+    "isMeasured": true,
+    "minBound": 0,
+    "maxBound": 1000
+  },
+  {
+    "id": "8ce95f98-a890-4bb5-8581-a1110b03a6a2",
+    "name": "6",
+    "sourceId": "3",
+    "destinationId": null,
+    "measured": 4.057,
+    "tolerance": 0.081,
+    "isMeasured": true,
+    "minBound": 0,
+    "maxBound": 1000
+  },
+  {
+    "id": "739175fd-de41-4485-b0e8-a309414008d1",
+    "name": "7",
+    "sourceId": "3",
+    "destinationId": null,
+    "measured": 0.991,
+    "tolerance": 0.02,
+    "isMeasured": true,
+    "minBound": 0,
+    "maxBound": 1000
+  }
+]
