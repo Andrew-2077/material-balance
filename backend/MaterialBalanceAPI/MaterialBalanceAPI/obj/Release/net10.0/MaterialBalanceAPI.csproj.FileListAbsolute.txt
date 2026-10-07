@@ -175,3 +175,4 @@ C:\Users\User\Desktop\MaterialBalance\backend\MaterialBalanceAPI\MaterialBalance
 C:\Users\User\Desktop\MaterialBalance\backend\MaterialBalanceAPI\MaterialBalanceAPI\obj\Release\net10.0\MaterialBalanceAPI.pdb
 C:\Users\User\Desktop\MaterialBalance\backend\MaterialBalanceAPI\MaterialBalanceAPI\obj\Release\net10.0\MaterialBalanceAPI.genruntimeconfig.cache
 C:\Users\User\Desktop\MaterialBalance\backend\MaterialBalanceAPI\MaterialBalanceAPI\obj\Release\net10.0\ref\MaterialBalanceAPI.dll
+C:\Users\User\Desktop\MaterialBalance\backend\MaterialBalanceAPI\MaterialBalanceAPI\obj\Release\net10.0\MaterialBalanceAPI.sourcelink.json

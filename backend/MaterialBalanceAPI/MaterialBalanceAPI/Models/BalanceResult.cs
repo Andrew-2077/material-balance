@@ -18,5 +18,7 @@
         public decimal GlobalTestValue { get; set; }
         public bool IsGlobalTestPassed { get; set; }
         public List<string> GrossErrorStreams { get; set; }
+        public long TimeMs { get; set; }
+        public long TimeDetectErrorsMs { get; set; }
     }
 }

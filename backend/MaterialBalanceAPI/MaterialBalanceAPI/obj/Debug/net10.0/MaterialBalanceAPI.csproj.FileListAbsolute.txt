@@ -175,3 +175,4 @@ C:\Users\User\Desktop\MaterialBalance\backend\MaterialBalanceAPI\MaterialBalance
 C:\Users\User\Desktop\MaterialBalance\backend\MaterialBalanceAPI\MaterialBalanceAPI\bin\Debug\net10.0\zh-Hans\Microsoft.CodeAnalysis.Workspaces.MSBuild.resources.dll
 C:\Users\User\Desktop\MaterialBalance\backend\MaterialBalanceAPI\MaterialBalanceAPI\bin\Debug\net10.0\zh-Hant\Microsoft.CodeAnalysis.Workspaces.MSBuild.resources.dll
 C:\Users\User\Desktop\MaterialBalance\backend\MaterialBalanceAPI\MaterialBalanceAPI\bin\Debug\net10.0\MathNet.Numerics.dll
+C:\Users\User\Desktop\MaterialBalance\backend\MaterialBalanceAPI\MaterialBalanceAPI\obj\Debug\net10.0\MaterialBalanceAPI.sourcelink.json

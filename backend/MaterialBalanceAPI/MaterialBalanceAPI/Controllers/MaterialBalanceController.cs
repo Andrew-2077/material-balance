@@ -26,6 +26,8 @@ namespace MaterialBalanceAPI.Controllers
             {
                 var response = _solver.Solve(request);
                 _logger.LogInformation("Расчет успешно завершен со статусом: {Status}", response.Status);
+                _logger.LogInformation("Время, затраченное на расчёт баланса: {TimeMs} мс", response.TimeMs);
+                _logger.LogInformation("Время, затраченное на поиск грубых ошибок: {TimeDetectErrorsMs} мс", response.TimeDetectErrorsMs);
                 return Ok(response);
             }
             catch (Exception ex)

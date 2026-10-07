@@ -6,6 +6,7 @@ using Accord.Statistics.Distributions.Univariate;
 using Accord.Math;
 using System;
 using MathNet.Numerics.LinearAlgebra.Double;
+using System.Diagnostics;
 
 namespace MaterialBalanceAPI.Services
 {
@@ -404,7 +405,9 @@ namespace MaterialBalanceAPI.Services
 
             // Расчет глобального теста и поиск ошибок
             double gtValue = CalculateGlobalTest(Aeq, varsArray, n);
+            Stopwatch sw1 = Stopwatch.StartNew();
             var grossErrorStreams = DetectGrossErrors(Aeq, nodes, varsArray, gtValue);
+            sw1.Stop();
 
             // 3. Формируем H (веса) и f (линейный член)
             double[,] H = new double[n, n];
@@ -458,8 +461,10 @@ namespace MaterialBalanceAPI.Services
                 constraints.Add(new LinearConstraint(1) { VariablesAtIndices = new[] { i }, CombinedAs = new[] { 1.0 }, ShouldBe = ConstraintType.LesserThanOrEqualTo, Value = ub[i] });
             }
 
+            Stopwatch sw2 = Stopwatch.StartNew();
             var solver = new GoldfarbIdnani(objective, constraints);
             bool success = solver.Minimize();
+            sw2.Stop();
 
             var reconciledList = vars.Select((v, index) => new BalanceResult
             {
@@ -477,7 +482,9 @@ namespace MaterialBalanceAPI.Services
                 GlobalTestValue = (decimal)gtValue,
                 IsGlobalTestPassed = gtValue <= 1.0,
                 ReconciledVariables = reconciledList,
-                GrossErrorStreams = grossErrorStreams
+                GrossErrorStreams = grossErrorStreams,
+                TimeMs = sw2.ElapsedMilliseconds,
+                TimeDetectErrorsMs = sw1.ElapsedMilliseconds
             };
         }
 

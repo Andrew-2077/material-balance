@@ -231,3 +231,4 @@ C:\Users\User\Desktop\MaterialBalance\backend\MaterialBalanceAPI\Tests\obj\Relea
 C:\Users\User\Desktop\MaterialBalance\backend\MaterialBalanceAPI\Tests\obj\Release\net10.0\Tests.pdb
 C:\Users\User\Desktop\MaterialBalance\backend\MaterialBalanceAPI\Tests\obj\Release\net10.0\Tests.genruntimeconfig.cache
 C:\Users\User\Desktop\MaterialBalance\backend\MaterialBalanceAPI\Tests\obj\Release\net10.0\ref\Tests.dll
+C:\Users\User\Desktop\MaterialBalance\backend\MaterialBalanceAPI\Tests\obj\Release\net10.0\Tests.sourcelink.json

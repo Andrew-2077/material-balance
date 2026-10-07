@@ -20,7 +20,7 @@ services:
       # Путь от файла docker-compose до папки с Dockerfile бэкенда
       context: ./MaterialBalanceAPI/MaterialBalanceAPI
       dockerfile: Dockerfile
-    image: andrew2077/material_balance:backend-v1.0
+    image: andrew2077/material_balance:backend-latest
     container_name: balance_api_18
     environment:
       - ConnectionStrings__DefaultConnection=Server=db_service;Database=MaterialBalanceDB;User Id=sa;Password=YourStrongPassword123!;TrustServerCertificate=True;
@@ -34,7 +34,7 @@ services:
       # Выходим из папки backend и идем во frontend
       context: ../frontend
       dockerfile: Dockerfile
-    image: andrew2077/material_balance:frontend-v1.0
+    image: andrew2077/material_balance:frontend-latest
     container_name: balance_web_client
     ports:
       - "5173:80"

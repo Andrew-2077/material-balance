@@ -11,11 +11,13 @@ namespace MaterialBalanceAPI.Controllers
     {
         private readonly IDataOrchestratorService _dataService;
         private readonly IBalanceSolverService _solverService;
+        private readonly ILogger<BalanceController> _logger;
 
-        public PlantOperationsController(IDataOrchestratorService dataService, IBalanceSolverService solverService)
+        public PlantOperationsController(IDataOrchestratorService dataService, IBalanceSolverService solverService, ILogger<BalanceController> logger)
         {
             _dataService = dataService;
             _solverService = solverService;
+            _logger = logger;
         }
 
         // Возвращает структуру завода (узлы и связи) без замеров для отрисовки на фронтенде.
@@ -45,6 +47,9 @@ namespace MaterialBalanceAPI.Controllers
             };
 
             var response = _solverService.Solve(request);
+            _logger.LogInformation("Расчет успешно завершен со статусом: {Status}", response.Status);
+            _logger.LogInformation("Время, затраченное на расчёт баланса: {TimeMs} мс", response.TimeMs);
+            _logger.LogInformation("Время, затраченное на поиск грубых ошибок: {TimeDetectErrorsMs} мс", response.TimeDetectErrorsMs);
             return Ok(response);
         }
     }
