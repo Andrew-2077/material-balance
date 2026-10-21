@@ -2,6 +2,9 @@ using MaterialBalanceAPI.Services;
 using Serilog;
 using Microsoft.EntityFrameworkCore;
 using MaterialBalanceAPI.Data;
+using MaterialBalanceAPI.Models;
+using Microsoft.Extensions.DependencyInjection;
+using MaterialBalanceAPI.Decorators;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -11,7 +14,13 @@ var connectionString = Environment.GetEnvironmentVariable("DB_CONNECTION")
 builder.Services.AddDbContext<PlantDbContext>(options =>
     options.UseSqlServer(connectionString));
 
-builder.Services.AddScoped<IDataOrchestratorService, DataOrchestratorService>();
+builder.Services.Configure<BalanceOptions>(builder.Configuration.GetSection("BalanceSettings"));
+builder.Services.AddScoped<DataOrchestratorService>();
+builder.Services.AddScoped<IDataOrchestratorService>(provider =>
+new LoggingDataOrchestratorServiceDecorator(
+    provider.GetRequiredService<DataOrchestratorService>(),
+    provider.GetRequiredService<ILogger<LoggingDataOrchestratorServiceDecorator>>()
+    ));
 
 // 1. Настройка Serilog
 Log.Logger = new LoggerConfiguration()
@@ -35,7 +44,12 @@ builder.Host.UseSerilog();
 
 // Add services to the container.
 // Регистрируем наш сервис
-builder.Services.AddScoped<IBalanceSolverService, BalanceSolverService>();
+builder.Services.AddScoped<BalanceSolverService>();
+builder.Services.AddScoped<IBalanceSolverService>(provider =>
+new LoggingBalanceSolverServiceDecorator(
+    provider.GetRequiredService<BalanceSolverService>(),
+    provider.GetRequiredService<ILogger<LoggingBalanceSolverServiceDecorator>>()
+    ));
 builder.Services.AddControllers();
 // Learn more about configuring OpenAPI at https://aka.ms/aspnet/openapi
 builder.Services.AddOpenApi();
@@ -52,6 +66,7 @@ builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 
 var app = builder.Build();
+app.UseSerilogRequestLogging();
 
 // Configure the HTTP request pipeline.
 if (app.Environment.IsDevelopment())

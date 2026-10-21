@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("MaterialBalanceAPI")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+3c2625ce4a8e18f111823dba01119f3a49c69c4a")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+9642365d6b013587d5f4f81cacdd9cc3c628f982")]
 [assembly: System.Reflection.AssemblyProductAttribute("MaterialBalanceAPI")]
 [assembly: System.Reflection.AssemblyTitleAttribute("MaterialBalanceAPI")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

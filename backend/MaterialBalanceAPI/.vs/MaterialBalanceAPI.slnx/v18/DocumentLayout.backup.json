@@ -3,20 +3,16 @@
   "WorkspaceRootPath": "C:\\Users\\User\\Desktop\\MaterialBalance\\backend\\MaterialBalanceAPI\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{50AC440D-F01A-4658-ACED-5D5E30326635}|Tests\\Tests.csproj|c:\\users\\user\\desktop\\materialbalance\\backend\\materialbalanceapi\\tests\\unittest3.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{50AC440D-F01A-4658-ACED-5D5E30326635}|Tests\\Tests.csproj|solutionrelative:tests\\unittest3.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{50AC440D-F01A-4658-ACED-5D5E30326635}|Tests\\Tests.csproj|c:\\users\\user\\desktop\\materialbalance\\backend\\materialbalanceapi\\tests\\unittest2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{50AC440D-F01A-4658-ACED-5D5E30326635}|Tests\\Tests.csproj|solutionrelative:tests\\unittest2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{50AC440D-F01A-4658-ACED-5D5E30326635}|Tests\\Tests.csproj|c:\\users\\user\\desktop\\materialbalance\\backend\\materialbalanceapi\\tests\\unittest1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{50AC440D-F01A-4658-ACED-5D5E30326635}|Tests\\Tests.csproj|solutionrelative:tests\\unittest1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{BD596276-661B-2B14-B1C8-9EA00241A919}|MaterialBalanceAPI\\MaterialBalanceAPI.csproj|c:\\users\\user\\desktop\\materialbalance\\backend\\materialbalanceapi\\materialbalanceapi\\services\\balancesolverservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{BD596276-661B-2B14-B1C8-9EA00241A919}|MaterialBalanceAPI\\MaterialBalanceAPI.csproj|solutionrelative:materialbalanceapi\\services\\balancesolverservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BD596276-661B-2B14-B1C8-9EA00241A919}|MaterialBalanceAPI\\MaterialBalanceAPI.csproj|c:\\users\\user\\desktop\\materialbalance\\backend\\materialbalanceapi\\materialbalanceapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BD596276-661B-2B14-B1C8-9EA00241A919}|MaterialBalanceAPI\\MaterialBalanceAPI.csproj|solutionrelative:materialbalanceapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BD596276-661B-2B14-B1C8-9EA00241A919}|MaterialBalanceAPI\\MaterialBalanceAPI.csproj|c:\\users\\user\\desktop\\materialbalance\\backend\\materialbalanceapi\\materialbalanceapi\\models\\variabledto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BD596276-661B-2B14-B1C8-9EA00241A919}|MaterialBalanceAPI\\MaterialBalanceAPI.csproj|solutionrelative:materialbalanceapi\\models\\variabledto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{BD596276-661B-2B14-B1C8-9EA00241A919}|MaterialBalanceAPI\\MaterialBalanceAPI.csproj|c:\\users\\user\\desktop\\materialbalance\\backend\\materialbalanceapi\\materialbalanceapi\\models\\balanceresult.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -31,10 +27,6 @@
       "RelativeMoniker": "D:0:0:{BD596276-661B-2B14-B1C8-9EA00241A919}|MaterialBalanceAPI\\MaterialBalanceAPI.csproj|solutionrelative:materialbalanceapi\\models\\balancerequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{BD596276-661B-2B14-B1C8-9EA00241A919}|MaterialBalanceAPI\\MaterialBalanceAPI.csproj|c:\\users\\user\\desktop\\materialbalance\\backend\\materialbalanceapi\\materialbalanceapi\\controllers\\materialbalancecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{BD596276-661B-2B14-B1C8-9EA00241A919}|MaterialBalanceAPI\\MaterialBalanceAPI.csproj|solutionrelative:materialbalanceapi\\controllers\\materialbalancecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{BD596276-661B-2B14-B1C8-9EA00241A919}|MaterialBalanceAPI\\MaterialBalanceAPI.csproj|c:\\users\\user\\desktop\\materialbalance\\backend\\materialbalanceapi\\materialbalanceapi\\controllers\\plantoperationscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{BD596276-661B-2B14-B1C8-9EA00241A919}|MaterialBalanceAPI\\MaterialBalanceAPI.csproj|solutionrelative:materialbalanceapi\\controllers\\plantoperationscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -43,16 +35,40 @@
       "RelativeMoniker": "D:0:0:{BD596276-661B-2B14-B1C8-9EA00241A919}|MaterialBalanceAPI\\MaterialBalanceAPI.csproj|solutionrelative:materialbalanceapi\\controllers\\periodscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{BD596276-661B-2B14-B1C8-9EA00241A919}|MaterialBalanceAPI\\MaterialBalanceAPI.csproj|c:\\users\\user\\desktop\\materialbalance\\backend\\materialbalanceapi\\materialbalanceapi\\models\\variabledto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{BD596276-661B-2B14-B1C8-9EA00241A919}|MaterialBalanceAPI\\MaterialBalanceAPI.csproj|solutionrelative:materialbalanceapi\\models\\variabledto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{BD596276-661B-2B14-B1C8-9EA00241A919}|MaterialBalanceAPI\\MaterialBalanceAPI.csproj|c:\\users\\user\\desktop\\materialbalance\\backend\\materialbalanceapi\\materialbalanceapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{BD596276-661B-2B14-B1C8-9EA00241A919}|MaterialBalanceAPI\\MaterialBalanceAPI.csproj|solutionrelative:materialbalanceapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{BD596276-661B-2B14-B1C8-9EA00241A919}|MaterialBalanceAPI\\MaterialBalanceAPI.csproj|c:\\users\\user\\desktop\\materialbalance\\backend\\materialbalanceapi\\materialbalanceapi\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
       "RelativeMoniker": "D:0:0:{BD596276-661B-2B14-B1C8-9EA00241A919}|MaterialBalanceAPI\\MaterialBalanceAPI.csproj|solutionrelative:materialbalanceapi\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BD596276-661B-2B14-B1C8-9EA00241A919}|MaterialBalanceAPI\\MaterialBalanceAPI.csproj|c:\\users\\user\\desktop\\materialbalance\\backend\\materialbalanceapi\\materialbalanceapi\\controllers\\materialbalancecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BD596276-661B-2B14-B1C8-9EA00241A919}|MaterialBalanceAPI\\MaterialBalanceAPI.csproj|solutionrelative:materialbalanceapi\\controllers\\materialbalancecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{50AC440D-F01A-4658-ACED-5D5E30326635}|Tests\\Tests.csproj|c:\\users\\user\\desktop\\materialbalance\\backend\\materialbalanceapi\\tests\\unittest1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{50AC440D-F01A-4658-ACED-5D5E30326635}|Tests\\Tests.csproj|solutionrelative:tests\\unittest1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{50AC440D-F01A-4658-ACED-5D5E30326635}|Tests\\Tests.csproj|c:\\users\\user\\desktop\\materialbalance\\backend\\materialbalanceapi\\tests\\unittest2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{50AC440D-F01A-4658-ACED-5D5E30326635}|Tests\\Tests.csproj|solutionrelative:tests\\unittest2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{50AC440D-F01A-4658-ACED-5D5E30326635}|Tests\\Tests.csproj|c:\\users\\user\\desktop\\materialbalance\\backend\\materialbalanceapi\\tests\\unittest3.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{50AC440D-F01A-4658-ACED-5D5E30326635}|Tests\\Tests.csproj|solutionrelative:tests\\unittest3.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BD596276-661B-2B14-B1C8-9EA00241A919}|MaterialBalanceAPI\\MaterialBalanceAPI.csproj|c:\\users\\user\\desktop\\materialbalance\\backend\\materialbalanceapi\\materialbalanceapi\\models\\balanceoptions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BD596276-661B-2B14-B1C8-9EA00241A919}|MaterialBalanceAPI\\MaterialBalanceAPI.csproj|solutionrelative:materialbalanceapi\\models\\balanceoptions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BD596276-661B-2B14-B1C8-9EA00241A919}|MaterialBalanceAPI\\MaterialBalanceAPI.csproj|c:\\users\\user\\desktop\\materialbalance\\backend\\materialbalanceapi\\materialbalanceapi\\decorators\\loggingbalancesolverservicedecorator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BD596276-661B-2B14-B1C8-9EA00241A919}|MaterialBalanceAPI\\MaterialBalanceAPI.csproj|solutionrelative:materialbalanceapi\\decorators\\loggingbalancesolverservicedecorator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BD596276-661B-2B14-B1C8-9EA00241A919}|MaterialBalanceAPI\\MaterialBalanceAPI.csproj|c:\\users\\user\\desktop\\materialbalance\\backend\\materialbalanceapi\\materialbalanceapi\\decorators\\loggingdataorchestratorservicedecorator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BD596276-661B-2B14-B1C8-9EA00241A919}|MaterialBalanceAPI\\MaterialBalanceAPI.csproj|solutionrelative:materialbalanceapi\\decorators\\loggingdataorchestratorservicedecorator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BD596276-661B-2B14-B1C8-9EA00241A919}|MaterialBalanceAPI\\MaterialBalanceAPI.csproj|c:\\users\\user\\desktop\\materialbalance\\backend\\materialbalanceapi\\materialbalanceapi\\models\\periodsdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BD596276-661B-2B14-B1C8-9EA00241A919}|MaterialBalanceAPI\\MaterialBalanceAPI.csproj|solutionrelative:materialbalanceapi\\models\\periodsdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -62,7 +78,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 9,
+          "SelectedChildIndex": 25,
           "Children": [
             {
               "$type": "Bookmark",
@@ -102,7 +118,59 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 16,
+              "Title": "PeriodsDto.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\MaterialBalance\\backend\\MaterialBalanceAPI\\MaterialBalanceAPI\\Models\\PeriodsDto.cs",
+              "RelativeDocumentMoniker": "MaterialBalanceAPI\\Models\\PeriodsDto.cs",
+              "ToolTip": "C:\\Users\\User\\Desktop\\MaterialBalance\\backend\\MaterialBalanceAPI\\MaterialBalanceAPI\\Models\\PeriodsDto.cs",
+              "RelativeToolTip": "MaterialBalanceAPI\\Models\\PeriodsDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-21T19:30:48.053Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "LoggingDataOrchestratorServiceDecorator.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\MaterialBalance\\backend\\MaterialBalanceAPI\\MaterialBalanceAPI\\Decorators\\LoggingDataOrchestratorServiceDecorator.cs",
+              "RelativeDocumentMoniker": "MaterialBalanceAPI\\Decorators\\LoggingDataOrchestratorServiceDecorator.cs",
+              "ToolTip": "C:\\Users\\User\\Desktop\\MaterialBalance\\backend\\MaterialBalanceAPI\\MaterialBalanceAPI\\Decorators\\LoggingDataOrchestratorServiceDecorator.cs",
+              "RelativeToolTip": "MaterialBalanceAPI\\Decorators\\LoggingDataOrchestratorServiceDecorator.cs",
+              "ViewState": "AgIAAC0AAAAAAAAAAAAowBMAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-21T18:15:44.756Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "LoggingBalanceSolverServiceDecorator.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\MaterialBalance\\backend\\MaterialBalanceAPI\\MaterialBalanceAPI\\Decorators\\LoggingBalanceSolverServiceDecorator.cs",
+              "RelativeDocumentMoniker": "MaterialBalanceAPI\\Decorators\\LoggingBalanceSolverServiceDecorator.cs",
+              "ToolTip": "C:\\Users\\User\\Desktop\\MaterialBalance\\backend\\MaterialBalanceAPI\\MaterialBalanceAPI\\Decorators\\LoggingBalanceSolverServiceDecorator.cs",
+              "RelativeToolTip": "MaterialBalanceAPI\\Decorators\\LoggingBalanceSolverServiceDecorator.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAdAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-21T17:31:50.99Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "BalanceOptions.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\MaterialBalance\\backend\\MaterialBalanceAPI\\MaterialBalanceAPI\\Models\\BalanceOptions.cs",
+              "RelativeDocumentMoniker": "MaterialBalanceAPI\\Models\\BalanceOptions.cs",
+              "ToolTip": "C:\\Users\\User\\Desktop\\MaterialBalance\\backend\\MaterialBalanceAPI\\MaterialBalanceAPI\\Models\\BalanceOptions.cs",
+              "RelativeToolTip": "MaterialBalanceAPI\\Models\\BalanceOptions.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAxAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-21T08:13:28.755Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
               "Title": "UnitTest3.cs",
               "DocumentMoniker": "C:\\Users\\User\\Desktop\\MaterialBalance\\backend\\MaterialBalanceAPI\\Tests\\UnitTest3.cs",
               "RelativeDocumentMoniker": "Tests\\UnitTest3.cs",
@@ -115,7 +183,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 11,
               "Title": "UnitTest2.cs",
               "DocumentMoniker": "C:\\Users\\User\\Desktop\\MaterialBalance\\backend\\MaterialBalanceAPI\\Tests\\UnitTest2.cs",
               "RelativeDocumentMoniker": "Tests\\UnitTest2.cs",
@@ -123,11 +191,12 @@
               "RelativeToolTip": "Tests\\UnitTest2.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-10-06T17:58:33.39Z"
+              "WhenOpened": "2026-10-06T17:58:33.39Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 10,
               "Title": "UnitTest1.cs",
               "DocumentMoniker": "C:\\Users\\User\\Desktop\\MaterialBalance\\backend\\MaterialBalanceAPI\\Tests\\UnitTest1.cs",
               "RelativeDocumentMoniker": "Tests\\UnitTest1.cs",
@@ -135,59 +204,64 @@
               "RelativeToolTip": "Tests\\UnitTest1.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAHUAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-09-24T10:01:37.251Z"
+              "WhenOpened": "2026-09-24T10:01:37.251Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 9,
               "Title": "MaterialBalanceController.cs",
               "DocumentMoniker": "C:\\Users\\User\\Desktop\\MaterialBalance\\backend\\MaterialBalanceAPI\\MaterialBalanceAPI\\Controllers\\MaterialBalanceController.cs",
               "RelativeDocumentMoniker": "MaterialBalanceAPI\\Controllers\\MaterialBalanceController.cs",
               "ToolTip": "C:\\Users\\User\\Desktop\\MaterialBalance\\backend\\MaterialBalanceAPI\\MaterialBalanceAPI\\Controllers\\MaterialBalanceController.cs",
               "RelativeToolTip": "MaterialBalanceAPI\\Controllers\\MaterialBalanceController.cs",
-              "ViewState": "AgIAAAsAAAAAAAAAAAA8wAsAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABgAAAANAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-09-24T09:57:36.881Z"
+              "WhenOpened": "2026-09-24T09:57:36.881Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 8,
               "Title": "appsettings.json",
               "DocumentMoniker": "C:\\Users\\User\\Desktop\\MaterialBalance\\backend\\MaterialBalanceAPI\\MaterialBalanceAPI\\appsettings.json",
               "RelativeDocumentMoniker": "MaterialBalanceAPI\\appsettings.json",
               "ToolTip": "C:\\Users\\User\\Desktop\\MaterialBalance\\backend\\MaterialBalanceAPI\\MaterialBalanceAPI\\appsettings.json",
               "RelativeToolTip": "MaterialBalanceAPI\\appsettings.json",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAYAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABgAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2026-05-01T18:40:02.478Z"
+              "WhenOpened": "2026-05-01T18:40:02.478Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 7,
               "Title": "PeriodsController.cs",
               "DocumentMoniker": "C:\\Users\\User\\Desktop\\MaterialBalance\\backend\\MaterialBalanceAPI\\MaterialBalanceAPI\\Controllers\\PeriodsController.cs",
               "RelativeDocumentMoniker": "MaterialBalanceAPI\\Controllers\\PeriodsController.cs",
               "ToolTip": "C:\\Users\\User\\Desktop\\MaterialBalance\\backend\\MaterialBalanceAPI\\MaterialBalanceAPI\\Controllers\\PeriodsController.cs",
               "RelativeToolTip": "MaterialBalanceAPI\\Controllers\\PeriodsController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAxAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-30T09:25:59.786Z"
+              "WhenOpened": "2026-04-30T09:25:59.786Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 6,
               "Title": "PlantOperationsController.cs",
               "DocumentMoniker": "C:\\Users\\User\\Desktop\\MaterialBalance\\backend\\MaterialBalanceAPI\\MaterialBalanceAPI\\Controllers\\PlantOperationsController.cs",
               "RelativeDocumentMoniker": "MaterialBalanceAPI\\Controllers\\PlantOperationsController.cs",
               "ToolTip": "C:\\Users\\User\\Desktop\\MaterialBalance\\backend\\MaterialBalanceAPI\\MaterialBalanceAPI\\Controllers\\PlantOperationsController.cs",
               "RelativeToolTip": "MaterialBalanceAPI\\Controllers\\PlantOperationsController.cs",
-              "ViewState": "AgIAAB4AAAAAAAAAAAAowBMAAAAdAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAA7AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-30T09:09:13.791Z"
+              "WhenOpened": "2026-04-30T09:09:13.791Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 5,
               "Title": "BalanceRequest.cs",
               "DocumentMoniker": "C:\\Users\\User\\Desktop\\MaterialBalance\\backend\\MaterialBalanceAPI\\MaterialBalanceAPI\\Models\\BalanceRequest.cs",
               "RelativeDocumentMoniker": "MaterialBalanceAPI\\Models\\BalanceRequest.cs",
@@ -195,67 +269,73 @@
               "RelativeToolTip": "MaterialBalanceAPI\\Models\\BalanceRequest.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-30T08:49:34.19Z"
+              "WhenOpened": "2026-04-30T08:49:34.19Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 4,
               "Title": "DataOrchestratorService.cs",
               "DocumentMoniker": "C:\\Users\\User\\Desktop\\MaterialBalance\\backend\\MaterialBalanceAPI\\MaterialBalanceAPI\\Services\\DataOrchestratorService.cs",
               "RelativeDocumentMoniker": "MaterialBalanceAPI\\Services\\DataOrchestratorService.cs",
               "ToolTip": "C:\\Users\\User\\Desktop\\MaterialBalance\\backend\\MaterialBalanceAPI\\MaterialBalanceAPI\\Services\\DataOrchestratorService.cs",
               "RelativeToolTip": "MaterialBalanceAPI\\Services\\DataOrchestratorService.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAA+AAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAFYAAAAeAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-30T08:46:19.303Z"
+              "WhenOpened": "2026-04-30T08:46:19.303Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 3,
               "Title": "BalanceResult.cs",
               "DocumentMoniker": "C:\\Users\\User\\Desktop\\MaterialBalance\\backend\\MaterialBalanceAPI\\MaterialBalanceAPI\\Models\\BalanceResult.cs",
               "RelativeDocumentMoniker": "MaterialBalanceAPI\\Models\\BalanceResult.cs",
               "ToolTip": "C:\\Users\\User\\Desktop\\MaterialBalance\\backend\\MaterialBalanceAPI\\MaterialBalanceAPI\\Models\\BalanceResult.cs",
               "RelativeToolTip": "MaterialBalanceAPI\\Models\\BalanceResult.cs",
-              "ViewState": "AgIAAA4AAAAAAAAAAAAswBQAAAAoAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAsAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-20T12:38:21.589Z"
+              "WhenOpened": "2026-04-20T12:38:21.589Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 2,
               "Title": "VariableDto.cs",
               "DocumentMoniker": "C:\\Users\\User\\Desktop\\MaterialBalance\\backend\\MaterialBalanceAPI\\MaterialBalanceAPI\\Models\\VariableDto.cs",
               "RelativeDocumentMoniker": "MaterialBalanceAPI\\Models\\VariableDto.cs",
               "ToolTip": "C:\\Users\\User\\Desktop\\MaterialBalance\\backend\\MaterialBalanceAPI\\MaterialBalanceAPI\\Models\\VariableDto.cs",
               "RelativeToolTip": "MaterialBalanceAPI\\Models\\VariableDto.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAApAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAARAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-18T20:55:20.682Z"
+              "WhenOpened": "2026-04-18T20:55:20.682Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "BalanceSolverService.cs",
-              "DocumentMoniker": "C:\\Users\\User\\Desktop\\MaterialBalance\\backend\\MaterialBalanceAPI\\MaterialBalanceAPI\\Services\\BalanceSolverService.cs",
-              "RelativeDocumentMoniker": "MaterialBalanceAPI\\Services\\BalanceSolverService.cs",
-              "ToolTip": "C:\\Users\\User\\Desktop\\MaterialBalance\\backend\\MaterialBalanceAPI\\MaterialBalanceAPI\\Services\\BalanceSolverService.cs",
-              "RelativeToolTip": "MaterialBalanceAPI\\Services\\BalanceSolverService.cs",
-              "ViewState": "AgIAANgBAAAAAAAAAAAcwOUBAAAwAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-18T20:52:43.507Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 1,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\User\\Desktop\\MaterialBalance\\backend\\MaterialBalanceAPI\\MaterialBalanceAPI\\Program.cs",
               "RelativeDocumentMoniker": "MaterialBalanceAPI\\Program.cs",
               "ToolTip": "C:\\Users\\User\\Desktop\\MaterialBalance\\backend\\MaterialBalanceAPI\\MaterialBalanceAPI\\Program.cs",
               "RelativeToolTip": "MaterialBalanceAPI\\Program.cs",
-              "ViewState": "AgIAAEsAAAAAAAAAAAAAABYAAAAUAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAEQAAAAfAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-18T14:54:27.902Z"
+              "WhenOpened": "2026-04-18T14:54:27.902Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "BalanceSolverService.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\MaterialBalance\\backend\\MaterialBalanceAPI\\MaterialBalanceAPI\\Services\\BalanceSolverService.cs",
+              "RelativeDocumentMoniker": "MaterialBalanceAPI\\Services\\BalanceSolverService.cs",
+              "ToolTip": "C:\\Users\\User\\Desktop\\MaterialBalance\\backend\\MaterialBalanceAPI\\MaterialBalanceAPI\\Services\\BalanceSolverService.cs",
+              "RelativeToolTip": "MaterialBalanceAPI\\Services\\BalanceSolverService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-18T20:52:43.507Z",
+              "EditorCaption": ""
             }
           ]
         }

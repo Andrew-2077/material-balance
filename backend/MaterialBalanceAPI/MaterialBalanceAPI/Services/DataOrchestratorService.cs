@@ -3,6 +3,7 @@ using System.Threading.Tasks;
 using Microsoft.EntityFrameworkCore;
 using MaterialBalanceAPI.Data;
 using MaterialBalanceAPI.Models;
+using Microsoft.Extensions.DependencyInjection;
 
 namespace MaterialBalanceAPI.Services
 {
@@ -10,6 +11,7 @@ namespace MaterialBalanceAPI.Services
     {
         Task<BalanceRequest> GetBalanceDataForPeriodAsync(int periodId);
         Task<List<VariableDto>> GetPlantModelAsync();
+        Task<List<PeriodsDto>> GetPeriodsAsync();
     }
     public class DataOrchestratorService : IDataOrchestratorService
     {
@@ -19,18 +21,17 @@ namespace MaterialBalanceAPI.Services
         {
             _context = context;
         }
+        public DataOrchestratorService() { }
 
         public async Task<BalanceRequest> GetBalanceDataForPeriodAsync(int periodId)
         {
             // Получаем все потоки (модель завода)
             var streams = await _context.Streams.ToListAsync();
-            Console.WriteLine($"Найдено потоков в модели: {streams.Count}");
 
             // Получаем измерения для конкретного периода
             var measurements = await _context.Measurements
                 .Where(m => m.PeriodId == periodId)
                 .ToListAsync();
-            Console.WriteLine($"Найдено замеров для периода {periodId}: {measurements.Count}");
 
             var request = new BalanceRequest
             {
@@ -74,6 +75,17 @@ namespace MaterialBalanceAPI.Services
                 MinBound = s.MinBound,
                 MaxBound = s.MaxBound,
                 IsMeasured = false // Для пустой модели замеры не важны
+            }).ToList();
+        }
+
+        public async Task<List<PeriodsDto>> GetPeriodsAsync()
+        {
+            var periods = await _context.Periods.ToListAsync();
+            return periods.Select(p => new PeriodsDto
+            {
+                Id = p.Id,
+                Name = p.Name,
+                Timestamp = p.Timestamp,
             }).ToList();
         }
     }

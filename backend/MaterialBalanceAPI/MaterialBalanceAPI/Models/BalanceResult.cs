@@ -7,8 +7,6 @@
         public decimal ReconciledValue { get; set; }
         public decimal Measured { get; set; }
         public bool isMeasured { get; set; }
-        //public bool isGrossError { get; set; }
-        //public decimal MeasurementTestStatistic { get; set; }
     }
 
     public class BalanceResponse

@@ -2,6 +2,7 @@
 using MaterialBalanceAPI.Services;
 using MaterialBalanceAPI.Models;
 using System.Threading.Tasks;
+using Microsoft.Extensions.DependencyInjection;
 
 namespace MaterialBalanceAPI.Controllers
 {
@@ -32,7 +33,6 @@ namespace MaterialBalanceAPI.Controllers
         [HttpPost("calculate/{periodId}")]
         public async Task<IActionResult> CalculateBalance(int periodId)
         {
-            Console.WriteLine($"Запрос на расчет для периода: {periodId}");
 
             var variables = await _dataService.GetBalanceDataForPeriodAsync(periodId);
 
@@ -47,9 +47,6 @@ namespace MaterialBalanceAPI.Controllers
             };
 
             var response = _solverService.Solve(request);
-            _logger.LogInformation("Расчет успешно завершен со статусом: {Status}", response.Status);
-            _logger.LogInformation("Время, затраченное на расчёт баланса: {TimeMs} мс", response.TimeMs);
-            _logger.LogInformation("Время, затраченное на поиск грубых ошибок: {TimeDetectErrorsMs} мс", response.TimeDetectErrorsMs);
             return Ok(response);
         }
     }

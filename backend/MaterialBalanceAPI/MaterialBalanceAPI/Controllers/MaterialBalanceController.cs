@@ -1,6 +1,7 @@
 ﻿using MaterialBalanceAPI.Models;
 using MaterialBalanceAPI.Services;
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.Extensions.DependencyInjection;
 
 namespace MaterialBalanceAPI.Controllers
 {
@@ -20,14 +21,9 @@ namespace MaterialBalanceAPI.Controllers
         [HttpPost("solve")]
         public ActionResult<BalanceResponse> Solve([FromBody] BalanceRequest request)
         {
-            _logger.LogInformation("Получен запрос на расчет баланса. Количество потоков: {Count}", request.Variables.Count);
-
             try
             {
                 var response = _solver.Solve(request);
-                _logger.LogInformation("Расчет успешно завершен со статусом: {Status}", response.Status);
-                _logger.LogInformation("Время, затраченное на расчёт баланса: {TimeMs} мс", response.TimeMs);
-                _logger.LogInformation("Время, затраченное на поиск грубых ошибок: {TimeDetectErrorsMs} мс", response.TimeDetectErrorsMs);
                 return Ok(response);
             }
             catch (Exception ex)
